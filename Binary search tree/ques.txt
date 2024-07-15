@@ -1,0 +1,19 @@
+Binary Search Tree - Delete
+
+ 
+Implement a Java program to construct a Binary Search Tree, to delete an element in BST and to display the elements in the tree using Inorder traversals.
+
+Create a class named BinarySearchTree and include the following methods
+
+Method Name	Description
+-> void insert(int data)	This method mainly calls insertRec(Node root,int data).This recursive function to insert a new key in BST.
+-> void display()	This method mainly calls displayRec(Node root). This recursive function prints the binary tree nodes in inorder
+-> void delete(int data)	This method mainly calls deleteRec(Node root,int data). This recursive function to delete a key in BST.
+-> Node deleteRec(Node root,int data)	This method to delete the key from BST. It calls minValue(Node root) function, when node with two children: Get the inorder successor (smallest in the right subtree)
+
+ 
+Binary Search tree is a binary tree in which each internal node x stores an element such that the element stored in the left subtree of x are less than or equal to x and elements stored in the right subtree of x are greater than or equal to x. This is called binary-search-tree property.
+ 
+Input and Output Format:
+Refer Sample Input and Output for formatting specifications. If the data to be deleted is not present in the BST, print "Data to be deleted, not found".
+[Note: While Deletion, print "Tree is empty", if the tree is empty. While Display, print “ There are no elements in the BST. “, if the tree is empty.]
