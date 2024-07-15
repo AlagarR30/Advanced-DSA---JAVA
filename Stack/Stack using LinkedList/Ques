@@ -1,0 +1,5 @@
+Stack using Linked List in java
+Problem Statement:
+
+Write a java program to implement an interface to perform stack operations using LinkedList.
+If the size of the array exceeds then throw an exception "Stack OverFlow" or  "Error : Underflow Exception" for size < 0.
