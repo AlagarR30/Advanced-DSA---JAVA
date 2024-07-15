@@ -1,0 +1,25 @@
+Problem
+
+Stack 2 : Array Implementation : Push and Pop
+
+Write a program to implement push and pop operation on stack and to display the contents of the stack.
+
+Create a class named Stack and include the following methods
+
+Method Name	Description
+void push(int data)	This method takes the data to be pushed in the stack and Print the message “Stack is full” in the push function when an attempt is made to push a data into a full stack.
+int pop()	This method to pop the data from the stack and Print the message “Stack is empty” in the pop function and return the value -1000 when an attempt is made to pop data from an empty stack.
+void display()	This method to display all the data in the stack.
+In the Stack function intialize the value of top to -1 and initialize the value of maxSize.
+
+Refer function specifications for further details.
+
+ 
+
+Input and Output Format:
+
+Refer sample input and output for formatting specifications.
+
+Note that the statement “The contents of the stack are” is in the main function. In the display function, if the stack is empty, print “ {}”.
+
+[All text in bold corresponds to input and the rest corresponds to output]
