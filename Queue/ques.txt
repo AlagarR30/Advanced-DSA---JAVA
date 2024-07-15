@@ -1,0 +1,6 @@
+Queue Using Singly Linked List
+
+Write a program to construct a singly Linked list to perform the operations of a queue of integers.
+Display the appropriate message for List empty as "List is empty", 
+ If any attempt is made to delete an element in the queue then display "Deleted data is 20" (Ex: if you try to delete 20). 
+ If List is empty and delete operation is called give a message " List is empty". 
