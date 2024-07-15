@@ -1,0 +1,27 @@
+
+Evaluate an expression entered in postfix form
+
+
+Write a program to evaluate an expression entered in “postfix” form using stack concept.
+
+Assume: There operators in the expression will not be other than '+' , '-' , '*' , '/' or ^.
+
+Define the class Postfix with the following method.
+
+Method Name	Method Description
+public Double evaluate(String exp)	
+This method accepts a string ‘exp’ from Main method, evaluates the string in “postfix” form.
+
+It returns the double value obtained after evaluated in “postfix” form.
+
+ 
+
+[Note: The method should be invoked through the main function.]
+
+Sample input and output:
+[Contents in bold corresponds to input, and the rest corresponds to output]
+The resultant decimal places to be corrected to zero for displaying the result.
+
+Enter postfix expression to be evaluated:
+13+
+Result is : 4
