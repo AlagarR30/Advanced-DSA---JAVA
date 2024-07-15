@@ -1,0 +1,25 @@
+
+Write a program to convert and print a given valid parenthesized infix arithmetic expression to postfix expression. The expression consists of single character operands and +,-, *, / operators.
+Constraints: only four operators used +, -, *, / .
+
+Input format:
+Input consists of a string which consists of infix expression.
+The output consists of a postfix expression. If the input In-fix expression consists of an operator other than the Arithmetic operators mentioned above print "Invalid Input".
+Refer sample input and output for formatting specifications.
+[All text in bold corresponds to the input and the rest corresponds to output.] 
+
+Output format:
+The output consists of postfix expression.
+
+Sample Input-Output 1:
+Enter the infix expression
+a+b
+The postfix expression is
+ab+
+ 
+Sample Input-Output 2:
+
+Enter the infix expression
+a+b-(c*d)
+The postfix expression is
+ab+cd*-
